@@ -1,8 +1,8 @@
 # Levy Elderberry
 
-Telegram: @lelderbe\
-Tel: +7-111-222-3344\
-email: none@none.com
+Telegram: [@lelderbe](https://t.me/lelderbe)\
+Tel: [+7-111-222-3344](tel:71112223344)\
+email: [none@none.com](mailto:none@none.com)
 
 I like to engineer, solve tasks, study new things. Worked as a system administrator long time and now I want to try as a developer.
 
@@ -28,7 +28,7 @@ Me at: [CodinGame](https://www.codingame.com/profile/d0411605e741f49294e1f264e8f
 
 ## Courses
 
-- [HTML & CSS | Result.School](https://vladilen.ru/beginner)
+- [HTML & CSS \| Result.School](https://vladilen.ru/beginner)
 - [Yandex: Algorithm training](https://yandex.ru/yaintern/algorithm-training_1)
 - [The JavaScript language](https://learn.javascript.ru/)
 - [Javarush](https://javarush.ru/)
