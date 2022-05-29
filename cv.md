@@ -19,18 +19,19 @@ Me at: [CodinGame](https://www.codingame.com/profile/d0411605e741f49294e1f264e8f
 ## Projects
 
 - [Green-Red game](https://github.com/lelderbe/green-red-game) - simple browser game, to see how lucky you are
-- [Cub3D C-project](https://github.com/lelderbe/03-cub3D) - graphics engine such as Wolf3D, written in C and use RayTracing technic
+- [Cub3D C-project](https://github.com/lelderbe/03-cub3D) - graphics engine such as Wolf3D, written in C and use RayCasting technic
 - [Push_swap C-project](https://github.com/lelderbe/03-push_swap) - custom stack sort algorithm with second stack available and ability to view every element in stacks, but with some operations limitations
 
 ## Education
 
-- [School 21](https://21-school.ru/)
+- [School 21](https://21-school.ru/) (in progress)
 
 ## Courses
 
+- [JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) (in progress)
+- [The JavaScript language](https://learn.javascript.ru/) (in progress)
 - [HTML & CSS \| Result.School](https://vladilen.ru/beginner)
 - [Yandex: Algorithm training](https://yandex.ru/yaintern/algorithm-training_1)
-- [The JavaScript language](https://learn.javascript.ru/)
 - [Javarush](https://javarush.ru/)
 
 ## English
