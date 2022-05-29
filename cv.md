@@ -8,13 +8,19 @@ I like to engineer, solve tasks, study new things. Worked as a system administra
 
 ## Skills
 
-- Javascript
-- Git
+- Javascript, Typescript
+- NodeJS, NestJS, TypeORM
+- Git, Docker
+- SQL
 - C
 - Java
 
 Me at: [CodinGame](https://www.codingame.com/profile/d0411605e741f49294e1f264e8f9077c3730284) |
 [LeetCode](https://leetcode.com/lelderbe/)
+
+## Experience
+
+- Junior Javascript backend developer (2022 - now)
 
 ## Projects
 
