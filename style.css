@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f0f0f0;
+}
+
+li {
+	line-height: 24px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 1px 20px;
+	max-width: 500px;
+	min-width: 300px;
+	background-color: #ffffff;
+	border-radius: 20px;
+}
+
+.avatar {
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.links {
+	text-align: center;
+}
+
+.links ul {
+	padding: 0;
+}
+
+.links ul li {
+	display: inline;
+	padding: 0 5px;
+}
+
+.rs-logo {
+	height: 20px;
+	width: auto;
+}
+
+.footer {
+	font-variant: small-caps;
+}
+
+.code {
+	padding-left: 20px;
+	border: 1px dashed gray;
+}
