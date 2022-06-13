@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* * {
-	margin: 0;
-} */
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f0f0f0;
+}
+
+li {
+	line-height: 24px;
+}
 
 .container {
-	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'Roboto', sans-serif;
-	/* border: 1px solid violet; */
 	margin: 0 auto;
-	max-width: 500px;
 	padding: 1px 20px;
-	/* background-color: #fafafa; */
-	background-color: #f0f0f0;
+	max-width: 500px;
+	min-width: 300px;
+	background-color: #ffffff;
 	border-radius: 20px;
 }
 
@@ -20,18 +22,6 @@
 	width: 200px;
 	height: auto;
 	border-radius: 50%;
-}
-
-.about {
-	/* border: 1px solid violet; */
-}
-
-.av {
-	border: 1px solid violet;
-}
-
-.co {
-	border: 1px solid violet;
 }
 
 .links {
@@ -44,5 +34,19 @@
 
 .links ul li {
 	display: inline;
-	
+	padding: 0 5px;
+}
+
+.rs-logo {
+	height: 20px;
+	width: auto;
+}
+
+.footer {
+	font-variant: small-caps;
+}
+
+.code {
+	padding-left: 20px;
+	border: 1px dashed gray;
 }
