@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
 	<title>Levi Elderberry CV</title>
-	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 	<div class="container">
-		<header>
-			<h1>Levi Elderberry</h1>
-			<img class="avatar" src="https://avatars.githubusercontent.com/u/29270751?v=4" alt="CV avatar">
+		<header class="header">
 			<nav>
-				<ul>
-					<li>Telegram: <a href="https://t.me/lelderbe" target="_blank">@lelderbe</a></li>
-					<li>Tel: <a href="tel:71112223344">+7-111-222-3344</a></li>
-					<li>email: <a href="mailto:none@none.com">none@none.com</a></li>
+				<ul class="navigation">
+					<li class="navigation__item"><a href="#skills">Skills</a></li>
+					<li class="navigation__item"><a href="#exp">Experience</a></li>
+					<li class="navigation__item"><a href="#projects">Projects</a></li>
+					<li class="navigation__item"><a href="#education">Education</a></li>
 				</ul>
 			</nav>
-			<p>
-				I like to engineer, solve tasks, study new things. Worked as a system administrator long time and now I want to
-				try as a
-				developer.
-			</p>
 		</header>
 
 		<main>
-			<section>
+			<section class="about">
+				<div class="about__row">
+					<div class="about__avatar">
+						<img class="avatar" src="https://avatars.githubusercontent.com/u/29270751?v=4" alt="CV avatar">
+					</div>
+					<div class="about__info">
+						<h1 class="title">Levi Elderberry</h1>
+						<ul>
+							<li>Telegram: <a href="https://t.me/lelderbe" target="_blank">@lelderbe</a></li>
+							<li>Tel: <a href="tel:71112223344">+7&#8209;111&#8209;222&#8209;3344</a></li>
+							<li>email: <a href="mailto:none@none.com">none@none.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="about__desc">
+					I like to engineer, solve tasks, study new things. Worked as a system administrator long time and
+					now I want to try as a developer.
+				</div>
+			</section>
+
+			<section id="skills">
 				<h2>Skills</h2>
 				<ul>
 					<li>Javascript, Typescript</li>
@@ -38,18 +54,19 @@
 					<li>Java</li>
 				</ul>
 				<p>
-					Me at: <a href="https://www.codingame.com/profile/d0411605e741f49294e1f264e8f9077c3730284" target="_blank">CodinGame</a> |
+					Me at: <a href="https://www.codingame.com/profile/d0411605e741f49294e1f264e8f9077c3730284"
+						target="_blank">CodinGame</a> |
 					<a href="https://leetcode.com/lelderbe/" target="_blank">LeetCode</a>
 				</p>
 			</section>
-	
-			<section>
+
+			<section id="exp">
 				<h2>Experience</h2>
 				<ul>
 					<li>Junior Javascript backend developer (2022 - now)</li>
 				</ul>
 			</section>
-	
+
 			<section>
 				<h2>Code example</h2>
 				<p>Convert decimal value to binary representation:</p>
@@ -61,35 +78,41 @@ function toBinary(n){
 				</pre>
 			</section>
 
-			<section>
+			<section id="projects">
 				<h2>Projects</h2>
 				<ul>
-					<li><a href="https://github.com/lelderbe/green-red-game" target="_blank">Green-Red game</a> - simple browser game, to see how lucky you are</li>
-					<li><a href="https://github.com/lelderbe/03-cub3D" target="_blank">Cub3D C-project</a> - graphics engine such as Wolf3D, written in C and use RayCasting technic</li>
-					<li><a href="https://github.com/lelderbe/03-push_swap" target="_blank">Push_swap C-project</a> - custom stack sort algorithm with second stack available and ability to view every element in stacks, but with some
-					operations limitations</li>
+					<li><a href="https://github.com/lelderbe/green-red-game" target="_blank">Green-Red game</a> - simple
+						browser game, to see how lucky you are</li>
+					<li><a href="https://github.com/lelderbe/03-cub3D" target="_blank">Cub3D C-project</a> - graphics
+						engine such as Wolf3D, written in C and use RayCasting technic</li>
+					<li><a href="https://github.com/lelderbe/03-push_swap" target="_blank">Push_swap C-project</a> -
+						custom stack sort algorithm with second stack available and ability to view every element in
+						stacks, but with some
+						operations limitations</li>
 				</ul>
-	
 			</section>
 
-			<section>
+			<section id="education">
 				<h2>Education</h2>
 				<ul>
 					<li><a href="https://21-school.ru/" target="_blank">School 21</a>(in progress)</li>
 				</ul>
 			</section>
-	
+
 			<section>
 				<h2>Courses</h2>
 				<ul>
-					<li><a href="https://rs.school/js-stage0/" target="_blank">JavaScript/Front-end. Stage 0</a> (in progress)</li>
-					<li><a href="https://learn.javascript.ru/" target="_blank">The JavaScript language</a> (in progress)</li>
-					<li><a href="https://vladilen.ru/beginner" target="_blank">HTML & CSS | Result.School</a></li>
-					<li><a href="https://yandex.ru/yaintern/algorithm-training_1" target="_blank">Yandex: Algorithm training</a></li>
+					<li><a href="https://rs.school/js/" target="_blank">JavaScript/Front-end. Stage 1</a> (in progress)
+					</li>
+					<li><a href="https://learn.javascript.ru/" target="_blank">The JavaScript language</a> (in progress)
+					</li>
+					<li><a href="https://vladilen.ru/beginner" target="_blank">HTML &amp; CSS | Result.School</a></li>
+					<li><a href="https://yandex.ru/yaintern/algorithm-training_1" target="_blank">Yandex: Algorithm
+							training</a></li>
 					<li><a href="https://javarush.ru/" target="_blank">Javarush</a></li>
 				</ul>
 			</section>
-	
+
 			<section>
 				<h2>English</h2>
 				<ul>
@@ -97,18 +120,20 @@ function toBinary(n){
 				</ul>
 			</section>
 		</main>
-		
+
 		<hr>
-		
+
 		<footer class="footer">
 			<nav class="links">
 				<ul>
 					<li><a href="https://github.com/lelderbe/" target="_blank">my github</a></li>
-					<li>2022</li> 
-					<li><a href="https://rs.school/js/" target="_blank"><img class="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="RSschool"></a></li>
+					<li>2022</li>
+					<li><a href="https://rs.school/js/" target="_blank"><img class="rs-logo"
+								src="https://rs.school/images/rs_school_js.svg" alt="RSschool"></a></li>
 				</ul>
 			</nav>
 		</footer>
 	</div>
 </body>
+
 </html>
