@@ -10,128 +10,157 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="wrapper">
 		<header class="header">
-			<nav>
-				<ul class="navigation">
-					<li class="navigation__item"><a href="#skills">Skills</a></li>
-					<li class="navigation__item"><a href="#exp">Experience</a></li>
-					<li class="navigation__item"><a href="#projects">Projects</a></li>
-					<li class="navigation__item"><a href="#education">Education</a></li>
-				</ul>
-			</nav>
+			<div class="container">
+				<nav>
+					<ul class="links">
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#exp">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#education">Education</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 		<main>
 			<section class="about">
-				<div class="about__row">
-					<div class="about__avatar">
-						<img class="avatar" src="https://avatars.githubusercontent.com/u/29270751?v=4" alt="CV avatar">
+				<div class="container">
+					<div class="about__row">
+						<div class="about__avatar">
+							<img class="avatar" src="images/avatar.jpeg" alt="CV avatar">
+						</div>
+						<div class="about__info">
+							<h1 class="title">Levi Elderberry</h1>
+							<ul>
+								<li>Telegram: <a href="https://t.me/lelderbe" target="_blank">@lelderbe</a></li>
+								<li>Tel: <a href="tel:71112223344">+7&#8209;111&#8209;222&#8209;3344</a></li>
+								<li>email: <a href="mailto:none@none.com">none@none.com</a></li>
+							</ul>
+						</div>
 					</div>
-					<div class="about__info">
-						<h1 class="title">Levi Elderberry</h1>
-						<ul>
-							<li>Telegram: <a href="https://t.me/lelderbe" target="_blank">@lelderbe</a></li>
-							<li>Tel: <a href="tel:71112223344">+7&#8209;111&#8209;222&#8209;3344</a></li>
-							<li>email: <a href="mailto:none@none.com">none@none.com</a></li>
-						</ul>
+					<div class="about__desc">
+						I like to engineer, solve tasks, study new things. Worked as a system administrator long time
+						and
+						now I want to try as a developer.
 					</div>
-				</div>
-				<div class="about__desc">
-					I like to engineer, solve tasks, study new things. Worked as a system administrator long time and
-					now I want to try as a developer.
 				</div>
 			</section>
 
 			<section id="skills">
-				<h2>Skills</h2>
-				<ul>
-					<li>Javascript, Typescript</li>
-					<li>NodeJS, NestJS, TypeORM</li>
-					<li>Git, Docker</li>
-					<li>SQL</li>
-					<li>C</li>
-					<li>Java</li>
-				</ul>
-				<p>
-					Me at: <a href="https://www.codingame.com/profile/d0411605e741f49294e1f264e8f9077c3730284"
-						target="_blank">CodinGame</a> |
-					<a href="https://leetcode.com/lelderbe/" target="_blank">LeetCode</a>
-				</p>
+				<div class="container">
+					<h2>Skills</h2>
+					<ul>
+						<li>Javascript, Typescript</li>
+						<li>NodeJS, NestJS, TypeORM</li>
+						<li>Git, Docker</li>
+						<li>SQL</li>
+						<li>C</li>
+						<li>Java</li>
+					</ul>
+					<p>
+						Me at: <a href="https://www.codingame.com/profile/d0411605e741f49294e1f264e8f9077c3730284"
+							target="_blank">CodinGame</a> |
+						<a href="https://leetcode.com/lelderbe/" target="_blank">LeetCode</a>
+					</p>
+				</div>
 			</section>
 
 			<section id="exp">
-				<h2>Experience</h2>
-				<ul>
-					<li>Junior Javascript backend developer (2022 - now)</li>
-				</ul>
+				<div class="container">
+					<h2>Experience</h2>
+					<ul>
+						<li>Junior Javascript backend developer (2022 - now)</li>
+					</ul>
+				</div>
 			</section>
 
 			<section>
-				<h2>Code example</h2>
-				<p>Convert decimal value to binary representation:</p>
-				<pre class="code">
+				<div class="container">
+					<h2>Code example</h2>
+					<p>Convert decimal value to binary representation:</p>
+					<pre class="code">
 
 function toBinary(n){
     return +n.toString(2);
 }
-				</pre>
+					</pre>
+				</div>
 			</section>
 
 			<section id="projects">
-				<h2>Projects</h2>
-				<ul>
-					<li><a href="https://github.com/lelderbe/green-red-game" target="_blank">Green-Red game</a> - simple
-						browser game, to see how lucky you are</li>
-					<li><a href="https://github.com/lelderbe/03-cub3D" target="_blank">Cub3D C-project</a> - graphics
-						engine such as Wolf3D, written in C and use RayCasting technic</li>
-					<li><a href="https://github.com/lelderbe/03-push_swap" target="_blank">Push_swap C-project</a> -
-						custom stack sort algorithm with second stack available and ability to view every element in
-						stacks, but with some
-						operations limitations</li>
-				</ul>
+				<div class="container">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="https://github.com/lelderbe/green-red-game" target="_blank">Green-Red game</a> -
+							simple
+							browser game, to see how lucky you are</li>
+						<li><a href="https://github.com/lelderbe/03-cub3D" target="_blank">Cub3D C-project</a> -
+							graphics
+							engine such as Wolf3D, written in C and use RayCasting technic</li>
+						<li><a href="https://github.com/lelderbe/03-push_swap" target="_blank">Push_swap C-project</a> -
+							custom stack sort algorithm with second stack available and ability to view every element in
+							stacks, but with some
+							operations limitations</li>
+					</ul>
+				</div>
 			</section>
 
 			<section id="education">
-				<h2>Education</h2>
-				<ul>
-					<li><a href="https://21-school.ru/" target="_blank">School 21</a>(in progress)</li>
-				</ul>
+				<div class="container">
+					<h2>Education</h2>
+					<ul>
+						<li><a href="https://21-school.ru/" target="_blank">School 21</a>(in progress)</li>
+					</ul>
+				</div>
 			</section>
 
 			<section>
-				<h2>Courses</h2>
-				<ul>
-					<li><a href="https://rs.school/js/" target="_blank">JavaScript/Front-end. Stage 1</a> (in progress)
-					</li>
-					<li><a href="https://learn.javascript.ru/" target="_blank">The JavaScript language</a> (in progress)
-					</li>
-					<li><a href="https://vladilen.ru/beginner" target="_blank">HTML &amp; CSS | Result.School</a></li>
-					<li><a href="https://yandex.ru/yaintern/algorithm-training_1" target="_blank">Yandex: Algorithm
-							training</a></li>
-					<li><a href="https://javarush.ru/" target="_blank">Javarush</a></li>
-				</ul>
+				<div class="container">
+					<h2>Courses</h2>
+					<ul>
+						<li><a href="https://rs.school/js/" target="_blank">JavaScript/Front-end. Stage 1</a> (in
+							progress)
+						</li>
+						<li><a href="https://learn.javascript.ru/" target="_blank">The JavaScript language</a> (in
+							progress)
+						</li>
+						<li><a href="https://vladilen.ru/beginner" target="_blank">HTML &amp; CSS | Result.School</a>
+						</li>
+						<li><a href="https://yandex.ru/yaintern/algorithm-training_1" target="_blank">Yandex: Algorithm
+								training</a></li>
+						<li><a href="https://javarush.ru/" target="_blank">Javarush</a></li>
+					</ul>
+				</div>
 			</section>
 
-			<section>
-				<h2>English</h2>
-				<ul>
-					<li>A2: Pre Intermediate</li>
-				</ul>
+			<section class="english">
+				<div class="container">
+					<h2>English</h2>
+					<ul>
+						<li>A2: Pre Intermediate</li>
+					</ul>
+				</div>
 			</section>
 		</main>
 
-		<hr>
-
 		<footer class="footer">
-			<nav class="links">
-				<ul>
-					<li><a href="https://github.com/lelderbe/" target="_blank">my github</a></li>
+			<div class="container">
+				<ul class="links">
+					<li>
+						<a href="https://github.com/lelderbe/" target="_blank">
+							<img class="footer__logo" src="images/github.png" alt="my github">
+						</a>
+					</li>
 					<li>2022</li>
-					<li><a href="https://rs.school/js/" target="_blank"><img class="rs-logo"
-								src="https://rs.school/images/rs_school_js.svg" alt="RSschool"></a></li>
+					<li>
+						<a href="https://rs.school/js/" target="_blank">
+							<img class="footer__logo" src="images/rs_school_js.svg" alt="RSschool">
+						</a>
+					</li>
 				</ul>
-			</nav>
+			</div>
 		</footer>
 	</div>
 </body>
